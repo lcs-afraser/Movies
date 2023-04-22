@@ -13,7 +13,7 @@ struct MovieDetailView: View {
     }
 }
 
-struct MovieView_Previews: PreviewProvider {
+struct MovieDetailView_Previews: PreviewProvider {
     static var previews: some View {
         MovieDetailView()
     }

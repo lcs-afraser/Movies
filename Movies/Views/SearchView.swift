@@ -26,6 +26,10 @@ struct SearchView: View {
                     Text(currentMovie.MetacriticRating)
                 }
             }
+            .task {
+                //When the view appears fetch search results for Intersteallar
+                foundMovies = await NetworkService.fetch()
+            }
         }
     }
 }
